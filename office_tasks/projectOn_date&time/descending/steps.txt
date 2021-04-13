@@ -1,0 +1,2 @@
+- 1st get some dates
+- try converting them to date format

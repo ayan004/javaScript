@@ -1,0 +1,12 @@
+#selectParent {
+  display: inline-block;
+}
+.fieldNames {
+  display: inline-block;
+}
+#warningOnParent {
+  color: red;
+}
+#warningOnChild {
+  color: red;
+}

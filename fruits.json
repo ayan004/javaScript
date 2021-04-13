@@ -1,0 +1,1 @@
+{"status":"success","data":[{"id":1,"fruit_name":"Apple","price_per_kg":80},{"id":2,"fruit_name":"Orange","price_per_kg":86},{"id":3,"fruit_name":"Sabeda","price_per_kg":90},{"id":4,"fruit_name":"Guava","price_per_kg":40},{"id":5,"fruit_name":"Mango","price_per_kg":80}],"message":"Successfully! All records has been fetched."}

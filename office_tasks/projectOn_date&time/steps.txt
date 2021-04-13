@@ -1,0 +1,23 @@
+Tasks - 
+	1. Get a date -> then convert it to desired format
+	2. Get a string with date -> then convert it to conventional format or any else format
+	3. Find out current America's time, then India's time - subtract it...and get the hour difference
+	4. Get many dates together, then arrange it in ascending order and descending order
+
+
+-------------------------------------------------------------------------
+
+1. 
+- Get a date
+- Convert it to desired format
+
+-------------------------------------------------------------------------
+
+2. 
+- Get a string with date
+- Convert that 'date string' to another 'date string' of different format
+
+-------------------------------------------------------------------------
+
+3. 
+- Get many strings with date

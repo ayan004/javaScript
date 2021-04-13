@@ -1,0 +1,33 @@
+//arranging in ascending order - basing on month and date -start
+// for (var i = 0; i < dt.length - 1; i++) {
+//   var temp1 = dt[i].substr(6, 4); //temp1 = first year
+//   temp1 = parseInt(temp1);
+//   var temp2 = dt[i + 1].substr(6, 4); //temp2 = second year
+//   temp2 = parseInt(temp2);
+//   //checking both year are same or not
+//   if (temp1 == temp2) {
+//     var temp3 = dt[i].substr(3, 2); //temp3 = month of the 1st year
+//     temp3 = parseInt(temp3);
+//     var temp4 = dt[i + 1].substr(3, 2); //temp4 = month of the 2nd year
+//     temp4 = parseInt(temp4);
+//     //checking 1st month > 2nd month
+//     if (temp3 > temp4) {
+//       var temp5 = dt[i];
+//       dt[i] = dt[i + 1];
+//       dt[i + 1] = temp5;
+//     } // checking 1st month = 2nd month
+//     else if (temp3 == temp4) {
+//       var temp6 = dt[i].substr(0, 2); //temp6 = date of the 1st year
+//       temp6 = parseInt(temp6);
+//       var temp7 = dt[i + 1].substr(0, 2); //temp7 = date of the 2nd year
+//       temp7 = parseInt(temp7);
+//       //checking 1st date > 2nd date
+//       if (temp6 > temp7) {
+//         var temp5 = dt[i];
+//         dt[i] = dt[i + 1];
+//         dt[i + 1] = temp5;
+//       }
+//     }
+//   }
+// }
+//end

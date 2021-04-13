@@ -1,0 +1,12 @@
+
+- Create a JSON data containing employee details
+- Display the data in table format on the DOM
+
+
+
+
+- Give a input box and button
+- Display the value of the input in console whn button clicked
+
+
+- run a loop, match the name, pickup the index

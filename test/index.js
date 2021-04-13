@@ -1,0 +1,36 @@
+console.log("this is index.js");
+
+// var a = 1;
+// console.log(a, typeof a);
+// localStorage.setItem("ids", a);
+// var b = localStorage.getItem("ids");
+// console.log(b, typeof b);
+// var c = 2;
+// b = b + `,` + c;
+// console.log(b);
+// localStorage.setItem("ids", b);
+// var d = localStorage.getItem("ids");
+// console.log(d, typeof d);
+// d = JSON.parse(d);
+// console.log(d);
+
+var a = ["1", "2"];
+console.log(a, typeof a);
+var b = JSON.stringify(a);
+console.log(b, typeof b);
+localStorage.setItem("ids", b);
+var c = localStorage.getItem("ids");
+console.log(c, typeof c);
+c = JSON.parse(c);
+console.log(c, typeof c);
+var d = 3;
+d = d.toString();
+// var e = `"` + d + `"`;
+// console.log(e, typeof e);
+c.push(d);
+console.log(c, typeof c);
+// c = JSON.stringify(c);
+// console.log(c, typeof c);
+localStorage.setItem("ids", c);
+d = localStorage.getItem("ids");
+console.log(d, typeof d);
